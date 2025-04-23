@@ -1,5 +1,7 @@
 # 🧾 Build a Digital Recipe Book
 
+### 🔗 [Live Demo](https://react-digital-recipe-book.vercel.app/)
+
 ## 📋 Specifications
 
 ### 1. Core Features
