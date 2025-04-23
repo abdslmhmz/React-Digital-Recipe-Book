@@ -1,0 +1,112 @@
+html{
+    background-color: #CFEE9E;
+    text-align: center;
+    font-family: 'Winky Rough', sans-serif;
+    font-size: 1.1em;
+    color: #1E2019;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #394032;
+    margin: 1em 0 0 0;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #394032;
+    text-decoration: underline;
+}
+
+.RecipeForm, .RecipeList{
+    padding: 1em;
+}
+
+.RecipeForm input, .RecipeForm select{
+    height: 1.5em;
+}
+
+.RecipeForm input, .RecipeForm select, textarea, option, .editButton{
+    padding: 0 0 0 0.5em;
+    background-color: #587B7F15;
+    border: 1px solid #1E2019;
+    font-family: 'Winky Rough', sans-serif;
+    font-size: 1em;
+    color: #1E2019;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    margin: 0 auto;
+}
+textarea{
+    resize: none;
+}
+option{
+    background-color: #CFEE9E;
+    color: #1E2019;
+    font-size: 0.9em;
+}
+label, #submit{
+    margin-top: 1em;
+}
+p{
+    margin: 0;
+    color: #1E201990;
+}
+#submit, .editButton{
+    padding-inline: 0.5em;
+    font-weight: 600;
+    border-radius: 0.5em;
+    background-color: #39403230;
+}
+.editButton{margin: 0 0.5em 1em 0; }
+
+
+.recipeItems{
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+    margin: 0 auto;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+.recipeItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.2em solid #1E2019C0;
+    padding: 1em;
+    border-radius: 2em;
+    background-color: #39403260;
+}
+.recipeItem span{
+    font-size: 1.1em;
+    font-weight: 900;
+}
+
+.recipeItem li{
+    text-align: start;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.recipeItem img{
+    width: 2.5em;
+    height: 2.5em;
+    margin-right: 3px;
+}
+
+#delete, #edit{
+    font-weight: 200;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#delete{
+    color: #FF000095;
+    margin-top: auto;
+}
